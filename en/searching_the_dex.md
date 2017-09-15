@@ -26,4 +26,4 @@
   }
   ```
 
-That's it! You've got a fully working Pokédex! Check out the next card for some ideas on how you can improve the project on your own.
+  That's it! You've got a fully working Pokédex! Check out the next card for some ideas on how you can improve the project on your own.

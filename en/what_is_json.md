@@ -1,4 +1,4 @@
-1. As proimsed, this card will look at **JSON**. You won't be writing any actual code here, just learning about this very important part of JavaScript. If you've already done the Intermediate or even Beginner JavaScript Sushi, you've worked with JSON before and even created some, I just didn't tell you what it was called! So let's look at some from the Intermediate cards first:
+1. As proimsed, this card will look at **JSON**. You won't be writing any actual code here, just learning about this very important part of **JavaScript**. If you've already done the Intermediate or even Beginner JavaScript Sushi, you've worked with JSON before and even created some, I just didn't tell you what it was called! So let's look at some from the Intermediate cards first:
 
   ```JavaScript
   [
@@ -16,7 +16,7 @@
       }
     ]
   ```
-  **JSON** stands for **JavaScript Object Notation** and it's basically just bits of JavaScript used to send information. There you've got an **array** with some **objects** in it. Each **object** has a few **variables** with values. If you wanted to look up the `text` of the first one, assuming this was stored in a **variable** named `toDos` you could do so with `toDos[0].text`. You could look up the `completed` value of the second one with `toDos[1].completed`.
+  **JSON** stands for **JavaScript Object Notation** and it's basically just bits of **JavaScript** used to send information. There you've got an **array** with some **objects** in it. Each **object** has a few **variables** with values. If you wanted to look up the `text` of the first one, assuming this was stored in a **variable** named `toDos` you could do so with `toDos[0].text`. You could look up the `completed` value of the second one with `toDos[1].completed`.
 
 2. You use **JSON** whenever you want to store information that is somehow connected. For example, if you have a list of information about a sports team, you might want to store things like:
   * Their name, as a text variable
@@ -25,7 +25,7 @@
   * A fixtures **array**, with the dates and times of their upcoming games and the name and **URL** (to the same kind of JSON object) for the team they're playing against
   * Maybe an **array** of history: which games and leagues they won and when
 
-You can see that this can quickly turn into a large set of files, linked to each other by **URLs** that can tell you, or your program, a lot about a subject. You could use this imaginary **JSON** **API** to make an app that showed you what matches were coming up this weekend and how those teams had fared when they played in the past. Or one that ranked all the teams in the league by things like wins/losses, score, number of players, etc. Notice that you're getting a lot more information than you're using in those apps, but that's normal with **JSON** that some other service is providing: They don't know exactly what kind of website or app you're building, so they give you *lots* of info!
+  You can see that this can quickly turn into a large set of files, linked to each other by **URLs** that can tell you, or your program, a lot about a subject. You could use this imaginary **JSON** **API** to make an app that showed you what matches were coming up this weekend and how those teams had fared when they played in the past. Or one that ranked all the teams in the league by things like wins/losses, score, number of players, etc. Notice that you're getting a lot more information than you're using in those apps, but that's normal with **JSON** that some other service is providing: They don't know exactly what kind of website or app you're building, so they give you *lots* of info!
 
 3. Now it's time to take a look at the **JSON** PokeAPI is sending you. Check out [dojo.soy/bulbasaur](http://dojo.soy/bulbasaur). I've pasted the **JSON** for Bulbasaur (Pokémon #1) into this online **JSON** viewer to make things a bit more readable for you. On the left, you can see the 9,081 lines that make up the Bulbasaur **JSON**. On the right, you can see that as a tree you can click into, which a human being has a better chance of understanding! What's important to learn here, really, is that you don't need to understand all of the **JSON** to use some of it. I have not read all of Bulbasaur's file and I never will, I've written a program that uses it, and you're in the process of doing the same! Since you'll be storing this info in your program, technically, if you get 150 pokemon in there, you'll have over a million lines of code in your program!
 

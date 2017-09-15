@@ -4,7 +4,8 @@
  * Inside that loop, looping over each of the current Pokémon's types
  * Then check if the type is *not* already in your list. The code for that is `typesList.indexOf(type) === -1`. If it was in the **array** this would return the **index** (position number) of the type.
  * If it is not in the **array**, adding it
-Also, you may want to sort it A–Z to make finding a type easier for users. That's simple, as A–Z (or smallest to largest for numbers) is the default sort for **JavaScript** **arrays**, so you can just use `typesList.sort()`. Here's the new `function` you should add to your code:
+ 
+  Also, you may want to sort it A–Z to make finding a type easier for users. That's simple, as A–Z (or smallest to largest for numbers) is the default sort for **JavaScript** **arrays**, so you can just use `typesList.sort()`. Here's the new `function` you should add to your code:
 
   ```JavaScript
     function getTypesList() {
@@ -43,7 +44,7 @@ Also, you may want to sort it A–Z to make finding a type easier for users. Tha
   }
   ```
 
-Try testing the selection by adding an `alert` with the type. Don't forget to remove it once the filtering is working though!
+  Try testing the selection by adding an `alert` with the type. Don't forget to remove it once the filtering is working though!
 
 3. Now you've got everything set up for your user to be able to tell the program what type they want to filter to. Time to actually filter things! The easiest way to do this is to just hide the Pokémon that don't match the filter, rather than adding or removing them. You can do that by changing the `style.display` property of the `<figure>` **tags** you created. So what you'll need is a loop that takes the type You can get that from the `this.value` property, since `this` will be referring to the **HTML** tag that triggered the `function`. That tag is the `<select>` tag, whose value is the value of the selected `<option>` tag. The `function` to do this (and handle the special case of showing everything if “all” is selected) is below, and you can go ahead and add it, then test your filters!
 

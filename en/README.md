@@ -1,6 +1,8 @@
-1. In these Sushi Cards you'll be building an app to get information from an **Application Programming Interface (API)** and display it to your user. Then you'll let them filter the information too. In the case of these Sushi Cards you'll be using the PokeAPI. It will let you get information about, and pictures of, Pokémon to display to your users. Once you're done, it'll look like this: [Image]
+1. In these Sushi Cards you'll be building an app to get information from an **Application Programming Interface (API)** and display it to your user. Then you'll let them filter the information too. In the case of these Sushi Cards you'll be using the PokeAPI. It will let you get information about, and pictures of, Pokémon to display to your users. Once you're done, it'll look like this:
 
-2. Since these are the Advanced JavaScript cards, you'll find the explainations are a bit less detailed than the earlier series, but you should be familiar with the basic pieces of JavaScript used in this program from the earlier series. I'll be talking more about what the code does, and why, than exactly *how* it manages it. 
+    ![](/assets/pokedex.png)
+
+2. Since these are the Advanced JavaScript cards, you'll find the explanations are a bit less detailed than the earlier series, but you should be familiar with the basic pieces of JavaScript used in this program from the earlier series. I'll be talking more about what the code does, and why, than exactly *how* it manages it. 
 
 2. Go to [dojo.soy/trinket](http://dojo.soy/trinket) and click "Sign Up For Your Free Account" if you do not already have an account. You will need an email address to sign up.
 3. Enter your email address and choose a password, or ask somebody to do this for you.

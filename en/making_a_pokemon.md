@@ -1,8 +1,9 @@
- 1. Now you're going to make your own **JSON** object. It's going to be a simple version of a Pokémon. What you're going to need to build a basic Pokédex is listed below. I figured out this list by looking at the **JSON** of one Pokémon using the tool you saw on the last card.
+1. Now you're going to make your own **JSON** object. It's going to be a simple version of a Pokémon. What you're going to need to build a basic Pokédex is listed below. I figured out this list by looking at the **JSON** of one Pokémon using the tool you saw on the last card.
   * The Pokémon's id number
   * Name of the Pokémon
   * A picture of it
   * Its “types” (fire, grass, water, etc.)
+  
   The Pokémon will be a kind of **object**, just like the ToDo was in the Intermediate JavaScript Sushi Cards. You can use a `function` to create and `return` an **object**, which lets you keep all the code related to that object neatly organised together. Add this function to your code to do so:
 
   ```JavaScript
@@ -15,7 +16,6 @@
   
   }
   ```
-
   The code takes in the index (number in an array) of a Pokémon which it looks up and stores in the `info` **variable**. The `this` **keyword** is used to refer to **variables** attached to the specific Pokémon **object** you're creating. Every Pokémon will have an `id`, `name`, and `image`, so you need to refer to the specific ones attached to *this* Pokémon. What the code does here is take the `name` and `id` from the **JSON** about the Pokémon and the `image` from the **array** (`PokePics`) of images.
 
 2. The next part is a bit trickier: A Pokémon can have more than one type, so you need to create a `types` **array** to store them, and then add them using a `for` **loop** that looks through the types in `info.types` and adds their names into `this.types`. You need to update the `function` you just wrote to add the code for types, like this:
