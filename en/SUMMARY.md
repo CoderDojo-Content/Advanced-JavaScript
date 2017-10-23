@@ -7,6 +7,6 @@
 * [Saving your Pokémon](saving_your_pokemon.md)
 * [Displaying Pokémon](displaying_pokemon.md)
 * [Filtering Pokémon](filtering_pokemon.md)
-* [Searching Pokémon](searching_pokemon.md)
+* [Searching Pokémon](searching_the_dex.md)
 * [What next?](what_next.md)
 
