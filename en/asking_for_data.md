@@ -27,7 +27,7 @@
   ```JavaScript
   async function fetchManyPokemon(pokemonCount) {
     for(var i = 1; i <= pokemonCount; i++){
-      await nfetchPokemon(i)
+      await fetchPokemon(i)
     }
   }
   ```
